@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# calendrier noël 2023
 
-## Getting Started
+This is a simple advent calendar to send to my family and friends.
+Each day, a new gift is revealed.
+Each gift is a link to a video or a song,
 
-First, run the development server:
+![mocks](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/mocks.png)
+
+## Table of Contents
+
+- [calendrier noël 2023](#calendrier-noël-2023)
+  - [Table of Contents](#table-of-contents)
+  - [Built with](#built-with)
+  - [Deployments](#deployments)
+  - [Installation](#installation)
+  - [Resources](#resources)
+  - [Team](#team)
+  - [License](#license)
+
+## Built with
+
+- TypeScript
+- NextJS
+- SASS
+- CSS modules
+- Bun JS
+
+## Deployments
+
+[coming soon...](https://)
+
+## Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+nvm use
+bun i
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Resources
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Blob Animation](https://blobanimation.com/)
+- plant frames by [iconcheese](https://thenounproject.com/browse/collection-icon/plant-frame-174590/?p=1)
+-
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Team
 
-## Learn More
+| [![Marina Kinalone Simonnet](https://avatars.githubusercontent.com/u/63544936?v=3&s=144)](https://github.com/marinakinalone) |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| [Marina Kinalone Simonnet](https://github.com/marinakinalone)                                                                |
 
-To learn more about Next.js, take a look at the following resources:
+## [License](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/LICENSE.txt)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MIT © [Marina Kinalone Simonnet](https://github.com/marinakinalone)

@@ -1,0 +1,31 @@
+#!/bin/sh
+FILES=$(git diff --cached --name-only --diff-filter=ACM "*.ts" "*.tsx" | sed 's| |\\ |g')
+[ -z "$FILES" ] && exit 0
+
+# Prettify all staged files
+echo "Running Prettier on staged files..."
+npm run prettier:staged
+
+# Add back the modified/prettified files to staging
+echo "$FILES" | xargs git add
+
+# Lint fix all staged files
+echo "Running ESLint with --fix on staged files..."
+echo "$FILES" | xargs npx eslint --fix
+
+# Add back the modified/fixed files to staging
+echo "$FILES" | xargs git add
+
+# Lint all files
+echo "$FILES" | xargs npx eslint
+
+LINT_STATUS=$?
+
+if [ $LINT_STATUS -ne 0 ]
+then
+    echo "Linting failed. Commit blocked."
+	exit 1
+fi
+
+echo "Pre-commit hook script completed successfully."
+exit 0
