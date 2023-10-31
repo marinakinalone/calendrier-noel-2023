@@ -1,29 +1,30 @@
-'use client'
 import React, { createContext, ReactNode, useEffect, useState } from 'react'
 
 export interface ICalendarContext {
-  today: Date
+  today: number
   isChristmasOrLater: boolean
   children?: ReactNode
 }
 
 export const CalendarContext = createContext<ICalendarContext>({
-  today: new Date(),
+  today: 0,
   isChristmasOrLater: false,
 })
 
 const CalendarProvider = ({ children }: { children: ReactNode }) => {
-  const [today, setToday] = useState(new Date())
+  const [today, setToday] = useState(0)
   const [isChristmasOrLater, setIsChristmasOrLater] = useState(false)
 
   useEffect(() => {
-    setToday(new Date())
+    const todayFullDate = new Date()
+    setToday(todayFullDate.getDate())
   }, [])
 
   useEffect(() => {
-    const currentYear = today.getFullYear()
+    const currentDate = new Date()
+    const currentYear = currentDate.getFullYear()
     const isChristmasOrLater =
-      currentYear >= 2023 && today.getMonth() === 11 && today.getDate() >= 25
+      currentYear >= 2023 && currentDate.getMonth() === 11 && currentDate.getDate() >= 25
 
     setIsChristmasOrLater(isChristmasOrLater)
   }, [today])

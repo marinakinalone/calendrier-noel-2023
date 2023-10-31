@@ -1,17 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import calendarData from '@/data/calendarData'
 import styles from './CalendarGrid.module.scss'
+import DayButton from '../DayButton'
+import useCalendar from '@/hooks/useCalendar'
+import useModal from '@/hooks/useModal'
+import DayModal from '../DayModal'
 
 const CalendarGrid = () => {
+  const { today } = useCalendar()
+  const { displayModal } = useModal()
+  console.log('displayModal: ', displayModal)
+
+  if (displayModal) {
+    return <DayModal />
+  }
+
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-        {calendarData.map(({ id, day }) => (
-          <div key={id} className={styles.gridItem}>
-            <h2>{day}</h2>
-            <img src={`/frames/frame_${id}.png`} alt={`Image ${id + 1}`} />
-          </div>
-        ))}
+        {calendarData.map(({ id, day }) => {
+          const isClickable = today === day || today > day
+          return <DayButton key={id} id={id} day={day} clickable={isClickable} />
+        })}
       </div>
       <footer className={styles.footer}>
         calendrier 2023, par&nbsp;

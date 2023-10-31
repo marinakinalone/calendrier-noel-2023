@@ -1,4 +1,4 @@
-interface ICalendarData {
+export interface ICalendarData {
   id: number
   day: number
   description: string
