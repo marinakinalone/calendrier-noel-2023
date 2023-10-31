@@ -6,9 +6,10 @@ const CalendarGrid = () => {
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-        {calendarData.map(({ id }) => (
+        {calendarData.map(({ id, day }) => (
           <div key={id} className={styles.gridItem}>
-            <img className={styles.frame} src={`/frames/frame_${id}.png`} alt={`Image ${id + 1}`} />
+            <h2>{day}</h2>
+            <img src={`/frames/frame_${id}.png`} alt={`Image ${id + 1}`} />
           </div>
         ))}
       </div>
