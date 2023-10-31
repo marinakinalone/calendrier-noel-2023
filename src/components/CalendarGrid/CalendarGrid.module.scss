@@ -1,3 +1,5 @@
+@use '../../styles/mixins' as *;
+
 .main {
   display: flex;
   flex-direction: column;
@@ -16,9 +18,7 @@
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   font-style: italic;
   font-size: 0.8rem;
   padding-bottom: 0.8rem;

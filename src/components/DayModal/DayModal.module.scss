@@ -1,0 +1,52 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d7dbda;
+  @include flex-center-column;
+}
+
+.closeButton {
+  border: none;
+  font-size: 1.25rem;
+  background-color: transparent;
+  position: relative;
+  left: 45%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: $white;
+  width: 50vh;
+  border: 1px solid $black;
+  border-radius: 3px;
+  padding: 1rem 1rem 2rem 1rem;
+  @include flex-center-column;
+  position: absolute;
+}
+
+.modalTitle {
+  margin-bottom: 0rem;
+}
+
+.links {
+  @include flex-center-column;
+}
+
+.modalLink {
+  border: 1px solid $black;
+  border-radius: 3px;
+  width: 175%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-family: $font-primary;
+  &:hover {
+    cursor: pointer;
+    background-color: $black;
+    color: $white;
+  }
+}

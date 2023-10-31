@@ -1,6 +1,7 @@
 import React from 'react'
 import useModal from '@/hooks/useModal'
 import calendarData, { ICalendarData } from '@/data/calendarData'
+import styles from './DayModal.module.scss'
 
 const getModalData = (day: number): ICalendarData | undefined => {
   return calendarData.find((data) => data.day === day)
@@ -14,16 +15,26 @@ const DayModal = () => {
 
   return (
     data && (
-      <main>
-        <section>
-          <button onClick={() => toggleDayModal(0)}>X</button>
-          <p>ornament</p>
-          <h2>{`Jour ${day}`}</h2>
-          <p>{description}</p>
+      <main className={styles.main}>
+        <section className={styles.modal}>
+          <button className={styles.closeButton} onClick={() => toggleDayModal(0)}>
+            X
+          </button>
           <div>
+            <p>ornament</p>
+          </div>
+          <h2 className={styles.modalTitle}>{`Jour ${day}`}</h2>
+          <p className={styles.modalDescription}>{description}</p>
+          <div className={styles.links}>
             {links &&
               Object.entries(links).map(([name, url]) => (
-                <a key={name} href={url} target="_blank" rel="noreferrer">
+                <a
+                  className={styles.modalLink}
+                  key={name}
+                  href={url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {name}
                 </a>
               ))}

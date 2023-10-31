@@ -5,3 +5,14 @@
   animation-fill-mode: $fillMode;
   opacity: $opacity;
 }
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-center-column {
+  @include flex-center;
+  flex-direction: column;
+}

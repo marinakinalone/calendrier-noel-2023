@@ -32,7 +32,7 @@ const calendarData = [
       color1: '#123456',
       color2: '#678901',
     },
-    links: { youtube: 'link', deezer: 'link', spotify: 'link' },
+    links: { youtube: 'link' },
   },
   {
     id: 2,

@@ -1,9 +1,8 @@
 @use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
 
 .frame {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
   button,
   div {
     position: absolute;
