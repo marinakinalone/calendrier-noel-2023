@@ -2,7 +2,7 @@
 
 This is a simple advent calendar to send to my family and friends.
 Each day, a new gift is revealed.
-Each gift is a link to a video or a song,
+Each gift is a link to a video or a song.
 
 ![mocks](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/mocks.png)
 

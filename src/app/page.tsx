@@ -1,5 +1,5 @@
-import styles from './page.module.css'
+import CalendarGrid from '@/components/CalendarGrid'
 
 export default function Home() {
-  return <main className={styles.main}></main>
+  return <CalendarGrid />
 }

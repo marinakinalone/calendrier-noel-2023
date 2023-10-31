@@ -1,0 +1,7 @@
+@mixin animation-properties($name, $delay, $duration, $fillMode: both, $opacity: null) {
+  animation-name: $name;
+  animation-delay: $delay;
+  animation-duration: $duration;
+  animation-fill-mode: $fillMode;
+  opacity: $opacity;
+}

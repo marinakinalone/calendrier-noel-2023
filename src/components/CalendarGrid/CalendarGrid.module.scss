@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  height: 100vh;
+}
+
+.grid {
+  max-width: 65vh;
+  max-height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 15%);
+}
+
+.gridItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 0.8rem;
+  padding-bottom: 0.8rem;
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
