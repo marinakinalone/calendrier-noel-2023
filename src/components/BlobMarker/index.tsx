@@ -51,9 +51,9 @@ const BlobMarker = ({ day }: { day: number }) => {
 
   const isPastDay = today > day
 
-  if (!isPastDay && !isToday) {
-    return <></>
-  }
+  // if (!isPastDay && !isToday) {
+  //   return <></>
+  // }
 
   const blur = isToday ? 'blur(4px)' : 'blur(0px)'
   const duration = getDuration(day)

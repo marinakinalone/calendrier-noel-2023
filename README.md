@@ -46,7 +46,7 @@ bun run dev
 
 - [Blob Animation](https://blobanimation.com/)
 - plant frames by [iconcheese](https://thenounproject.com/browse/collection-icon/plant-frame-174590/?p=1)
--
+  ![palette](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/palette.png)
 
 ## Team
 
