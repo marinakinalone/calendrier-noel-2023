@@ -29,8 +29,6 @@ const CalendarProvider = ({ children }: { children: ReactNode }) => {
     setIsChristmasOrLater(isChristmasOrLater)
   }, [today])
 
-  console.log('today', today)
-
   return (
     <CalendarContext.Provider value={{ today, isChristmasOrLater }}>
       {children}

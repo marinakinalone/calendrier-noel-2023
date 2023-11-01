@@ -8,7 +8,7 @@ import DayModal from '../DayModal'
 import BlobMarker from '../BlobMarker'
 
 const CalendarGrid = () => {
-  const { today } = useCalendar()
+  const { today, isChristmasOrLater } = useCalendar()
   const { displayModal } = useModal()
 
   if (displayModal) {
@@ -18,12 +18,13 @@ const CalendarGrid = () => {
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-        {calendarData.map(({ id, day }) => {
+        {calendarData.map(({ id, day, christmas }) => {
           const isClickable = today === day || today > day
+          console.log(isClickable)
           return (
             <div key={id} className={styles.dayFrame}>
-              <BlobMarker day={day} />
-              <DayButton key={id} id={id} day={day} clickable={isClickable} />
+              {!isChristmasOrLater && <BlobMarker day={day} />}
+              <DayButton key={id} id={id} day={day} christmas={christmas} clickable={isClickable} />
             </div>
           )
         })}
