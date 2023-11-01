@@ -22,7 +22,7 @@ const CalendarGrid = () => {
           const isClickable = today === day || today > day
           return (
             <div key={id} className={styles.dayFrame}>
-              <BlobMarker />
+              <BlobMarker day={day} />
               <DayButton key={id} id={id} day={day} clickable={isClickable} />
             </div>
           )

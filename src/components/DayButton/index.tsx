@@ -2,7 +2,6 @@
 import React from 'react'
 import styles from './DayButton.module.scss'
 import useModal from '@/hooks/useModal'
-import BlobMarker from '@/components/BlobMarker'
 
 interface IDayButton {
   id: number

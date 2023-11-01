@@ -1,16 +1,12 @@
 import React from 'react'
 import useModal from '@/hooks/useModal'
-import calendarData, { ICalendarData } from '@/data/calendarData'
+import calendarData, { getDayInfo, ICalendarData } from '@/data/calendarData'
 import styles from './DayModal.module.scss'
-
-const getModalData = (day: number): ICalendarData | undefined => {
-  return calendarData.find((data) => data.day === day)
-}
 
 const DayModal = () => {
   const { dayToDisplay, toggleDayModal } = useModal()
 
-  const data = getModalData(dayToDisplay)
+  const data = getDayInfo(dayToDisplay)
   const { day, description, links } = data || {}
 
   return (

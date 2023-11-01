@@ -13,6 +13,10 @@ export interface ICalendarData {
   }
 }
 
+export const getDayInfo = (day: number): ICalendarData | undefined => {
+  return calendarData.find((data) => data.day === day)
+}
+
 const calendarData = [
   {
     id: 0,
