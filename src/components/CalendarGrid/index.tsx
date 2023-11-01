@@ -20,7 +20,7 @@ const CalendarGrid = () => {
       <div className={styles.grid}>
         {calendarData.map(({ id, day, christmas }) => {
           const isClickable = today === day || today > day
-          console.log(isClickable)
+
           return (
             <div key={id} className={styles.dayFrame}>
               {!isChristmasOrLater && <BlobMarker day={day} />}
