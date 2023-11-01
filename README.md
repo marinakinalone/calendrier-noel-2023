@@ -29,6 +29,11 @@ Each gift is a link to a video or a song.
 
 [coming soon...](https://)
 
+Here is a sneak peak:
+![calendar](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/result-calendar.png)
+
+![christmas](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/result-christmas.png)
+
 ## Installation
 
 ```bash
