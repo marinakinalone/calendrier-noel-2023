@@ -4,7 +4,7 @@ This is a simple advent calendar to send to my family and friends.
 Each day, a new gift is revealed.
 Each gift is a link to a video or a song.
 
-![mocks](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/mocks.png)
+<img src="https://github.com/marinakinalone/calendrier-noel-2023/raw/main/public/mocks.png" width="600">
 
 ## Table of Contents
 
@@ -30,9 +30,9 @@ Each gift is a link to a video or a song.
 [coming soon...](https://)
 
 Here is a sneak peak:
-![calendar](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/result-calendar.png)
 
-![christmas](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/result-christmas.png)
+<img src="https://github.com/marinakinalone/calendrier-noel-2023/raw/main/public/result-calendar.png" width="400" >
+<img src="https://github.com/marinakinalone/calendrier-noel-2023/raw/main/public/result-christmas.png" width="400">
 
 ## Installation
 
@@ -46,7 +46,8 @@ bun run dev
 
 - [Blob Animation](https://blobanimation.com/)
 - plant frames by [iconcheese](https://thenounproject.com/browse/collection-icon/plant-frame-174590/?p=1)
-  ![palette](https://github.com/marinakinalone/calendrier-noel-2023/blob/main/public/palette.png)
+
+<img src="https://github.com/marinakinalone/calendrier-noel-2023/raw/main/public/palette.png" width="400">
 
 ## Team
 
