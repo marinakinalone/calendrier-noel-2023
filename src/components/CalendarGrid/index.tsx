@@ -5,11 +5,11 @@ import DayButton from '../DayButton'
 import useCalendar from '@/hooks/useCalendar'
 import useModal from '@/hooks/useModal'
 import DayModal from '../DayModal'
+import BlobMarker from '../BlobMarker'
 
 const CalendarGrid = () => {
   const { today } = useCalendar()
   const { displayModal } = useModal()
-  console.log('displayModal: ', displayModal)
 
   if (displayModal) {
     return <DayModal />
@@ -20,7 +20,12 @@ const CalendarGrid = () => {
       <div className={styles.grid}>
         {calendarData.map(({ id, day }) => {
           const isClickable = today === day || today > day
-          return <DayButton key={id} id={id} day={day} clickable={isClickable} />
+          return (
+            <div key={id} className={styles.dayFrame}>
+              <BlobMarker />
+              <DayButton key={id} id={id} day={day} clickable={isClickable} />
+            </div>
+          )
         })}
       </div>
       <footer className={styles.footer}>

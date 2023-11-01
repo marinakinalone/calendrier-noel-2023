@@ -17,6 +17,11 @@
   grid-template-rows: repeat(6, 15%);
 }
 
+.dayFrame {
+  position: relative;
+  @include flex-center;
+}
+
 .footer {
   @include flex-center;
   font-style: italic;

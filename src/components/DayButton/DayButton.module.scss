@@ -3,10 +3,10 @@
 
 .frame {
   @include flex-center;
+  z-index: 1;
   button,
   div {
     position: absolute;
-    z-index: 1;
     border: none;
     background-color: transparent;
     font-family: $font-primary;
