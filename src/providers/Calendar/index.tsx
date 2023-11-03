@@ -18,11 +18,14 @@ export const CalendarContext = createContext<ICalendarContext>({
 const CalendarProvider = ({ children }: { children: ReactNode }) => {
   const [today, setToday] = useState(0)
   const [isChristmasOrLater, setIsChristmasOrLater] = useState(false)
+  const [calendarData, setCalendarData] = useState(inspiredCalendarInfo)
 
-  const urlParams = new URLSearchParams((window as Window).location.search)
-  const jazzParam = urlParams.get('jazz')
-
-  const calendarData = getCalendarData(jazzParam)
+  useEffect(() => {
+    const urlParams = new URLSearchParams((window as Window).location.search)
+    const jazzParam = urlParams.get('jazz')
+    const calendarInfo = getCalendarData(jazzParam)
+    setCalendarData(calendarInfo)
+  }, [])
 
   useEffect(() => {
     const todayFullDate = new Date()
