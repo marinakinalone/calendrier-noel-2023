@@ -27,7 +27,8 @@ Each gift is a link to a video or a song.
 
 ## Deployments
 
-[coming soon...](https://)
+[Musical version](https://calendrier-noel.vercel.app?jazz=1)
+[Inspiring version](https://calendrier-noel.vercel.app)
 
 Here is a sneak peak:
 
