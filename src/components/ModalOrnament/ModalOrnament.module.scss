@@ -1,0 +1,38 @@
+@use '../../styles/mixins' as *;
+@use '../../styles/animations' as *;
+
+.ornamentFrame {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+}
+
+.ornamentFrame img {
+  position: absolute;
+  width: 100%;
+}
+
+$fadeInProps: (
+  name: fadeIn,
+  duration: 1s,
+  opacity: 0,
+);
+
+$fadeInInitialDelay: 0.5s;
+
+@for $i from 0 to 6 {
+  $delay: $fadeInInitialDelay;
+  $fadeInInitialDelay: $delay + 0.3s;
+
+  $fadeInClassName: unquote('.modalAnimation-#{$i}');
+  #{$fadeInClassName} {
+    @include animation-properties(
+      map-get($fadeInProps, name),
+      $delay,
+      map-get($fadeInProps, duration),
+      both,
+      map-get($fadeInProps, opacity)
+    );
+  }
+}
