@@ -45,7 +45,7 @@ const getDuration = (day: number) => {
 }
 
 const BlobMarker = ({ day }: { day: number }) => {
-  const { today } = useCalendar()
+  const { today, calendarData } = useCalendar()
   const isOdd = day % 2 === 1
   const isToday = today === day
 
@@ -58,7 +58,7 @@ const BlobMarker = ({ day }: { day: number }) => {
   const blur = isToday ? 'blur(4px)' : 'blur(0px)'
   const duration = getDuration(day)
 
-  const { palette } = getDayInfo(day) || {
+  const { palette } = getDayInfo(day, calendarData) || {
     palette: {
       color1: 'rgb(255, 255, 255)',
       color2: 'rgb(255, 255, 255)',

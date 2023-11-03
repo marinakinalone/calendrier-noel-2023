@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import calendarData from '@/data/calendarData'
 import styles from './CalendarGrid.module.scss'
 import DayButton from '../DayButton'
 import useCalendar from '@/hooks/useCalendar'
@@ -8,7 +7,7 @@ import DayModal from '../DayModal'
 import BlobMarker from '../BlobMarker'
 
 const CalendarGrid = () => {
-  const { today, isChristmasOrLater } = useCalendar()
+  const { today, isChristmasOrLater, calendarData } = useCalendar()
   const { displayModal } = useModal()
 
   if (displayModal) {

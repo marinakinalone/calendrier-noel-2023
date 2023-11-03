@@ -16,14 +16,14 @@ export interface ICalendarData {
   }
 }
 
-export const getDayInfo = (day: number): ICalendarData | undefined => {
+export const getDayInfo = (
+  day: number,
+  calendarData: ICalendarData[],
+): ICalendarData | undefined => {
   return calendarData.find((data) => data.day === day)
 }
 
-export const getCalendarData = () => {
-  const urlParams = new URLSearchParams(window.location.search)
-  const jazzParam = urlParams.get('jazz')
-
+export const getCalendarData = (jazzParam: string | null) => {
   if (jazzParam) {
     return inspiredCalendarInfo.map((item, index) => {
       return {
@@ -36,6 +36,6 @@ export const getCalendarData = () => {
   return inspiredCalendarInfo
 }
 
-const calendarData = getCalendarData() as ICalendarData[]
+// const calendarData = getCalendarData() as ICalendarData[]
 
-export default calendarData
+// export default calendarData

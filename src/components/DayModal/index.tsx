@@ -3,11 +3,13 @@ import useModal from '@/hooks/useModal'
 import { getDayInfo } from '@/data/calendarData'
 import styles from './DayModal.module.scss'
 import ModalOrnament from '../ModalOrnament'
+import useCalendar from '@/hooks/useCalendar'
 
 const DayModal = () => {
   const { dayToDisplay, toggleDayModal } = useModal()
+  const { calendarData } = useCalendar()
 
-  const data = getDayInfo(dayToDisplay)
+  const data = getDayInfo(dayToDisplay, calendarData)
   const { id, day, description, links } = data || {}
 
   return (

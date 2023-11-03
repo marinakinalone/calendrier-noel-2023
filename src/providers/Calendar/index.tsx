@@ -1,19 +1,28 @@
+import { getCalendarData, ICalendarData } from '@/data/calendarData'
+import inspiredCalendarInfo from '@/data/inspiredCalendar'
 import React, { createContext, ReactNode, useEffect, useState } from 'react'
 
 export interface ICalendarContext {
   today: number
   isChristmasOrLater: boolean
+  calendarData: ICalendarData[]
   children?: ReactNode
 }
 
 export const CalendarContext = createContext<ICalendarContext>({
   today: 0,
   isChristmasOrLater: false,
+  calendarData: inspiredCalendarInfo,
 })
 
 const CalendarProvider = ({ children }: { children: ReactNode }) => {
   const [today, setToday] = useState(0)
   const [isChristmasOrLater, setIsChristmasOrLater] = useState(false)
+
+  const urlParams = new URLSearchParams((window as Window).location.search)
+  const jazzParam = urlParams.get('jazz')
+
+  const calendarData = getCalendarData(jazzParam)
 
   useEffect(() => {
     const todayFullDate = new Date()
@@ -30,7 +39,7 @@ const CalendarProvider = ({ children }: { children: ReactNode }) => {
   }, [today])
 
   return (
-    <CalendarContext.Provider value={{ today, isChristmasOrLater }}>
+    <CalendarContext.Provider value={{ today, isChristmasOrLater, calendarData }}>
       {children}
     </CalendarContext.Provider>
   )
