@@ -19,7 +19,7 @@ $fadeInProps: (
   opacity: 0,
 );
 
-$fadeInInitialDelay: 0.5s;
+$fadeInInitialDelay: 0.25s;
 
 @for $i from 0 to 6 {
   $delay: $fadeInInitialDelay;
