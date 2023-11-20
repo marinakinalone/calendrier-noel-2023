@@ -5,11 +5,17 @@ import useCalendar from '@/hooks/useCalendar'
 import useModal from '@/hooks/useModal'
 import DayModal from '../DayModal'
 import BlobMarker from '../BlobMarker'
+import { ICalendarData } from '@/data/calendarData'
+
+const sortDataById = (arr: ICalendarData[]) => {
+  return arr.slice().sort((a, b) => a.id - b.id)
+}
 
 const CalendarGrid = () => {
   const { today, isChristmasOrLater, calendarData } = useCalendar()
   const { displayModal } = useModal()
 
+  const calendar = sortDataById(calendarData)
   if (displayModal) {
     return <DayModal />
   }
@@ -17,7 +23,7 @@ const CalendarGrid = () => {
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
-        {calendarData.map(({ id, day, christmas }) => {
+        {calendar.map(({ id, day, christmas }) => {
           const isClickable = today === day || today > day
 
           return (

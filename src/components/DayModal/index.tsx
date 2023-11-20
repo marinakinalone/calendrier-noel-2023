@@ -18,7 +18,6 @@ const DayModal = () => {
 
   const data = getDayInfo(dayToDisplay, calendarData)
   const { id, day, description, links } = data || {}
-
   return (
     data && (
       <main className={styles.main}>
