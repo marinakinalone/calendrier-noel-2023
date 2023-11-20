@@ -1,9 +1,16 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import useModal from '@/hooks/useModal'
 import { getDayInfo } from '@/data/calendarData'
 import styles from './DayModal.module.scss'
 import ModalOrnament from '../ModalOrnament'
 import useCalendar from '@/hooks/useCalendar'
+
+const getLinkIcon = (name: string) => {
+  const iconName = name.toLocaleLowerCase()
+
+  return `/icons/${iconName}.png`
+}
 
 const DayModal = () => {
   const { dayToDisplay, toggleDayModal } = useModal()
@@ -32,6 +39,7 @@ const DayModal = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <img key={name} src={getLinkIcon(name)} alt={''} />
                   {name}
                 </a>
               ))}

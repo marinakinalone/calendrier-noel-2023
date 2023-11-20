@@ -11,7 +11,7 @@ interface ICalendarJazzItem {
 const calendarJazzInfo = [
   {
     id: 0,
-    description: `Bienvenue dans le calendrier de l'avent jazzy de Marina Kinalone. Chaque jour, une nouveau morceau de musique pour vous accompagner jusqu'à Noël. Joyeuses fêtes !`,
+    description: `Bienvenue dans le calendrier de l'avent jazzy de Marina Kinalone. Chaque jour, un nouveau morceau de musique pour vous accompagner jusqu'à Noël. Joyeuses fêtes !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=oQqSg4VhZ_E&ab_channel=StaceyKent-Topic',
       deezer: 'jazz-link-0',
@@ -38,7 +38,7 @@ const calendarJazzInfo = [
   },
   {
     id: 3,
-    description: 'Little moments big emotions *',
+    description: ``,
     links: {
       youtube:
         'https://www.youtube.com/watch?v=SFHToaOC0cE&ab_channel=NiniNutsubidze%2CJanngo%26GiorgiGigashvili-Topic',
@@ -48,7 +48,7 @@ const calendarJazzInfo = [
   },
   {
     id: 4,
-    description: 'Tom Misch - It runs through me *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=ilNEqmfUyzI&ab_channel=COLORS',
       deezer: 'jazz-link-4',
@@ -57,7 +57,7 @@ const calendarJazzInfo = [
   },
   {
     id: 5,
-    description: 'Walking my baby back home *, avec des images de Stockholm',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=GF_NDRM3498&ab_channel=Tataeivoiolla',
       deezer: 'jazz-link-7',
@@ -66,7 +66,7 @@ const calendarJazzInfo = [
   },
   {
     id: 6,
-    description: 'Tron Haugmark My favourite things *',
+    description: `Un crooner pour Noël, mais d'origine Norvégienne s'il vous plaît !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=jMwvb0FymoE&ab_channel=TrondHaugmark-Topic',
       deezer: 'jazz-link-6',
@@ -75,7 +75,7 @@ const calendarJazzInfo = [
   },
   {
     id: 7,
-    description: 'Vintern rasar in *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=v5jr4ymrFpE&ab_channel=AmandaGinsburg-Topic',
       deezer: 'jazz-link-5',
@@ -93,7 +93,7 @@ const calendarJazzInfo = [
   },
   {
     id: 9,
-    description: 'stacey kent christmas time is here *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=6gfLU2AELlY&ab_channel=StaceyKentMusic',
       deezer: 'jazz-link-9',
@@ -102,7 +102,7 @@ const calendarJazzInfo = [
   },
   {
     id: 10,
-    description: 'my kind of night, for harmonies vintage et ukulélé *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=FWKaqhEurY4&ab_channel=CharliePeacock',
       deezer: 'jazz-link-10',
@@ -111,7 +111,7 @@ const calendarJazzInfo = [
   },
   {
     id: 11,
-    description: 'Loose *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=EFEh0npHExw&ab_channel=%2aHarbrow%2a',
       deezer: 'jazz-link-11',
@@ -120,7 +120,7 @@ const calendarJazzInfo = [
   },
   {
     id: 12,
-    description: 'Wave Gilberto *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=2RCnbOzCj1I&ab_channel=jonjonjon',
       deezer: 'jazz-link-12',
@@ -129,7 +129,7 @@ const calendarJazzInfo = [
   },
   {
     id: 13,
-    description: 'Winter Wonderland SK *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=7UyMjlNDBlg&ab_channel=StaceyKent-Topic',
       deezer: 'jazz-link-13',
@@ -138,7 +138,7 @@ const calendarJazzInfo = [
   },
   {
     id: 14,
-    description: 'la même que hier, mais en français. Au royaume du bonhomme hiver *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=c7_QZOG_mgg&ab_channel=CarolWelsman-Topic',
       deezer: 'jazz-link-14',
@@ -156,7 +156,7 @@ const calendarJazzInfo = [
   },
   {
     id: 16,
-    description: 'Sunset in the blue *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=qndrrfdmPIA&ab_channel=MelodyGardot',
       deezer: 'jazz-link-16',
@@ -165,7 +165,7 @@ const calendarJazzInfo = [
   },
   {
     id: 17,
-    description: 'Listen to the sky *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=52X-sFY2drA&ab_channel=LauraMisch',
       deezer: 'jazz-link-17',
@@ -174,7 +174,7 @@ const calendarJazzInfo = [
   },
   {
     id: 18,
-    description: 'Algo contigo *',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=NSRQUlPhqZo&ab_channel=LELY',
       deezer: 'jazz-link-18',
@@ -183,8 +183,7 @@ const calendarJazzInfo = [
   },
   {
     id: 19,
-    description:
-      'Warm in december . Je vous ai partagé la version live (suivez le lien YouTube)... magique !',
+    description: ``,
     links: {
       youtube: 'https://www.youtube.com/watch?v=0zWnPCqUjjg&ab_channel=SamaraJoyVEVO',
       deezer: 'jazz-link-19',

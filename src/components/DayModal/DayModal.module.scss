@@ -66,9 +66,16 @@
   padding: 0.5rem 2rem;
   text-align: center;
   font-family: $font-primary;
+  display: flex;
+  justify-content: center;
   &:hover {
     cursor: pointer;
     background-color: $black;
     color: $white;
+  }
+
+  img {
+    width: 1.35rem;
+    margin-right: 0.5rem;
   }
 }
