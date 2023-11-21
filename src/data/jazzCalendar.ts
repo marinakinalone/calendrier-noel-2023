@@ -173,7 +173,7 @@ const calendarJazzInfo = [
   },
   {
     day: 19,
-    description: ``,
+    description: `La relève musicale est là : `,
     links: {
       youtube: 'https://www.youtube.com/watch?v=NSRQUlPhqZo&ab_channel=LELY',
       deezer: 'https://deezer.page.link/uwa8RkkDxBFGhN5g8',
