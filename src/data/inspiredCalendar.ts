@@ -135,7 +135,7 @@ const inspiredCalendarInfo = [
       color1: 'rgb(241, 184, 158)',
       color2: 'rgb(160, 181, 181)',
     },
-    links: { youtube: 'link' },
+    links: { website: 'https://games.de.torontomu.ca/amaze/#/' },
   },
   {
     day: 13,
@@ -146,7 +146,7 @@ const inspiredCalendarInfo = [
       color1: 'rgb(252, 186, 167)',
       color2: 'rgb(221, 120, 111)',
     },
-    links: { youtube: 'link' },
+    links: { spotify: 'https://open.spotify.com/show/0s6Wc5qf8SIvCtKZNC6N7s?si=a16c880f65fb4d69' },
   },
   {
     day: 14,

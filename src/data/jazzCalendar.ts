@@ -20,7 +20,7 @@ const calendarJazzInfo = [
   },
   {
     day: 2,
-    description: `J'ai un jour pris le train avec mon petit chat Stormy et j'ai une vidéo de ce moment. Stormy est sur mes genoux en train de regarder le paysage enneigé défiler à travers la fenêtre. En fond sonore, ce duo tout mignon. À chaque fois que je l'entends, je repense à ce voyage en train...`,
+    description: `J'ai un jour pris le train pour Copenhague avec mon petit chat Stormy. Stormy est sur mes genoux et ensemble, nous regardons le paysage hivernal défiler à travers la fenêtre. En fond sonore, ce duo tout mignon. Chaque écoute me ramène instantanément à ce voyage en train mémorable...`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=JZtIF0wpi5g&ab_channel=Laufey',
       deezer: 'https://deezer.page.link/SUriNMw2pCUgZEnk9',
@@ -38,7 +38,7 @@ const calendarJazzInfo = [
   },
   {
     day: 4,
-    description: `"Petits moments, grandes émotions." De temps en temps, la radio me fait découvrir quelques pépites pas (encore) connues du grand public. C'est le cas avec ce groupe géorgien qui n'existe même pas sur Deezer.`,
+    description: `"Petits moments, grandes émotions." De temps en temps, la radio me réserve d'agréables surprises avec des pépites encore inconnues du grand public. C'est le cas de ce groupe géorgien, une découverte rare qui, étrangement, n'a même pas élu domicile sur Deezer.`,
     links: {
       youtube:
         'https://www.youtube.com/watch?v=SFHToaOC0cE&ab_channel=NiniNutsubdayze%2CJanngo%26GiorgiGigashvili-Topic',
@@ -47,7 +47,7 @@ const calendarJazzInfo = [
   },
   {
     day: 5,
-    description: ``,
+    description: `Un classique dans mes playlists de musique. Pour mettre un peu de groove dans votre journée ou soirée. La version YouTube est la plus rigolate à écouter, car elle vient d'une chaîne qui s'appelle COLORS. Le concept de la chaîne est d'inviter des artistes à performer sur un fond monochrome. Besoin d'un peu de peps et d'orange pétillant ? Cliquez !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=ilNEqmfUyzI&ab_channel=COLORS',
       deezer: 'https://deezer.page.link/PEzZzFXg5WyKZgEV8',
@@ -56,7 +56,7 @@ const calendarJazzInfo = [
   },
   {
     day: 6,
-    description: ``,
+    description: `Une des chanteuses de jazz les plus populaires de Suède. Joliment rétro. Vous avez l'originale en tête ?`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=GF_NDRM3498&ab_channel=Tataeivoiolla',
       deezer: 'https://deezer.page.link/gEtf2LsZtjYCXnVn8',
@@ -65,7 +65,7 @@ const calendarJazzInfo = [
   },
   {
     day: 7,
-    description: `Un crooner pour Noël, mais d'origine Norvégienne s'il vous plaît !`,
+    description: `Un crooner pour Noël, mais d'origine norvégienne s'il vous plaît !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=jMwvb0FymoE&ab_channel=TrondHaugmark-Topic',
       deezer: 'https://deezer.page.link/XFh44XdZGiykkcNz6',
@@ -74,7 +74,7 @@ const calendarJazzInfo = [
   },
   {
     day: 8,
-    description: ``,
+    description: `Je persiste dans ma découverte "scandinave" avec une autre artiste de jazz suédoise, au style plus contemporain.`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=v5jr4ymrFpE&ab_channel=AmandaGinsburg-Topic',
       deezer: 'https://deezer.page.link/Qgq14AiJY9rC6P2w6',
@@ -83,7 +83,7 @@ const calendarJazzInfo = [
   },
   {
     day: 9,
-    description: `Quand Nöel approche, j'ai une folle envie de danser le lindy hop. Il y a quelque chose dans le swing qui me rappelle l'ambiance des fêtes de fin d'année. Alors aujourd'hui, ça va swinguer un petit peu! PS: la vdayéo est adorable !`,
+    description: `À l'approche de Noël, une irrésistible envie de danser le lindy hop s'empare de moi. Il y a quelque chose dans le swing qui évoque l'ambiance chaleureuse des fêtes de fin d'année. Alors aujourd'hui, préparez-vous à faire quelques pas de danse ! PS: la vidéo est adorable !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=m2T7WI4CI4Y&ab_channel=Rachael%26Vilray',
       deezer: 'https://deezer.page.link/LUaGo8ZNqjLMzoKCA',
@@ -92,7 +92,7 @@ const calendarJazzInfo = [
   },
   {
     day: 10,
-    description: ``,
+    description: `"Noël est là!" En Suède, cela fait déjà quelques semaines que les flocons et les guirlandes lumineuses sont de sortie !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=6gfLU2AELlY&ab_channel=StaceyKentMusic',
       deezer: 'https://deezer.page.link/ZCgBB84Y2W1wmhZd9',
@@ -110,7 +110,7 @@ const calendarJazzInfo = [
   },
   {
     day: 12,
-    description: `loose`,
+    description: `Un autre de mes "classiques" qui revient régulièrement dans mon lecteur de musique. Je le partage aujourd'hui en souvenir d'une matinée particulièrement ensoleillée sur mon balcon au mois de Novembre à contempler le paysage enneigé : pieds nus gelés, soleil tout doux sur le visage, et café à la cannelle`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=EFEh0npHExw&ab_channel=%2aHarbrow%2a',
       deezer: 'https://deezer.page.link/vEEPFoASAub9hmZcA',
@@ -119,7 +119,7 @@ const calendarJazzInfo = [
   },
   {
     day: 13,
-    description: `Spotify a une fonctionalité qui permet de générer des playlists se basant sur les goûts musicaux qu'ont en commun un groupe de personnes. J'ai une playlist commune avec mes meilleures amies des quatre coins du monde et c'est la bossa nova qui met tout le monde d'accord !`,
+    description: `Sur Spotify, une fonctionnalité géniale crée des playlists en se basant sur les goûts musicaux partagés entre amis. J'ai la chance d'avoir une playlist commune avec mes meilleures amies des quatre coins du monde et devinez quoi ? La bossa nova y règne en maître, mettant tout le monde d'accord !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=2RCnbOzCj1I&ab_channel=jonjonjon',
       deezer: 'https://deezer.page.link/SgP27aVP7k7tRj4h7',
@@ -128,7 +128,7 @@ const calendarJazzInfo = [
   },
   {
     day: 14,
-    description: `https://deezer.page.link/NovdWnBNbysNjgMq7`,
+    description: `Parce que "jamais deux sans trois"...`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=7UyMjlNDBlg&ab_channel=StaceyKent-Topic',
       deezer: 'https://deezer.page.link/NovdWnBNbysNjgMq7',
@@ -146,7 +146,7 @@ const calendarJazzInfo = [
   },
   {
     day: 16,
-    description: `Mon coup de coeur de l'année 2023 en jazz vocal. Je vous recommande de suivre le lien YouTube pour voir la version live. Cette chanteuse est époustouflante (et elle n'a que vingt-quatre ans) !`,
+    description: `Mon coup de coeur vocal jazz de l'année 2023. Je vous conseille vivement de suivre le lien YouTube pour découvrir la version live. Cette chanteuse est époustouflante (et elle n'a que vingt-quatre ans) !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=Dzdwk2D0rh4&ab_channel=SamaraJoyVEVO',
       deezer: 'https://deezer.page.link/STdsGxXo7VqkqsB37',
@@ -155,7 +155,7 @@ const calendarJazzInfo = [
   },
   {
     day: 17,
-    description: ``,
+    description: `Mon amie m'a un jour confié que le jazz avait sur elle l'effet d'un rafraîchissement mental après une journée chargée. C'est exactement l'effet que me procure ce morceau. À savourer lors d'une soirée feutrée avec un verre de vin ou une tasse de thé (et un carré de chocolat).`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=qndrrfdmPIA&ab_channel=MelodyGardot',
       deezer: 'https://deezer.page.link/YV8VfsDqxu8tSPLZ8',
@@ -164,7 +164,7 @@ const calendarJazzInfo = [
   },
   {
     day: 18,
-    description: ``,
+    description: `La soeur de Tom Misch (apparu dans ce calendrier quelques jours plus tôt) fait aussi de la musique !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=52X-sFY2drA&ab_channel=LauraMisch',
       deezer: 'https://deezer.page.link/BM422eeRcuDx5YL58',
@@ -173,7 +173,7 @@ const calendarJazzInfo = [
   },
   {
     day: 19,
-    description: `La relève musicale est là : `,
+    description: `En explorant la discographie d'Andrea Motis, une jeune protégée de Joan Chamorro (créateur du Sant Andreu Jazz Band), j'ai découvert ce duo mère-fille : rafraîchissant avec une très jolie section de cuivres !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=NSRQUlPhqZo&ab_channel=LELY',
       deezer: 'https://deezer.page.link/uwa8RkkDxBFGhN5g8',
@@ -191,7 +191,7 @@ const calendarJazzInfo = [
   },
   {
     day: 21,
-    description: `Une chanson  qui passait à la radio lorsque les premières neiges sont tombées à Stockholm. C’est officiellement l’hiver aujourd’hui !`,
+    description: `Une chanson qui passait à la radio lorsque les premières neiges sont tombées à Stockholm. C’est officiellement l’hiver aujourd’hui !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=LC7gVvI6Bts&ab_channel=AlJarreau-Topic',
       deezer: 'https://deezer.page.link/y9feg2B7paRKTyHR8',
