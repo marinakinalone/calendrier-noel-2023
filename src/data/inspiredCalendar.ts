@@ -5,7 +5,7 @@ const inspiredCalendarInfo = [
     day: 1,
     id: 0,
     christmas: 'D',
-    description: 'drummers',
+    description: `Welcome to this lil' advent calendar! Every day, you'll find a new link to something that I've found inspiring, interesting, or just plain fun. I hope you enjoy it! I'm actually starting today with a Swedish band. I lied when I said that I only knew Abba and Ikea and I arrived in Sweden two years ago. One third thing I knew was that Sweden has fun drummers and they even break into your house to perform!`,
     palette: {
       color1: 'rgb(244, 226, 207)',
       color2: 'rgb(232, 193, 167)',
@@ -16,7 +16,7 @@ const inspiredCalendarInfo = [
     day: 2,
     id: 19,
     christmas: '3',
-    description: 'astropix',
+    description: `Delicious "internet 2000" aesthetics for really good content. For your daily dose of space, powered by NASA. A little reminder to look up at the stars and remember that we're all just tiny specks in the universe.`,
     palette: {
       color1: 'rgb(243, 210, 119)',
       color2: 'rgb(244, 227, 205)',
@@ -27,7 +27,7 @@ const inspiredCalendarInfo = [
     day: 3,
     id: 8,
     christmas: 'N',
-    description: 'jazz keys',
+    description: 'The most useless yet fun text editor for snobby jazz lovers like me.',
     palette: {
       color1: 'rgb(219, 120, 87)',
       color2: 'rgb(197, 137, 75)',
@@ -38,7 +38,7 @@ const inspiredCalendarInfo = [
     day: 4,
     id: 17,
     christmas: '0',
-    description: 'elizabeth',
+    description: `Elizabeth Filips is one of my favorite persons when it comes to productivity tips and embracing my chaotic motivation profile. She has YouTube videos and a really cool newsletter. I picked that one to remember that it's okay (and encouraged!) to start reading multiple books at once!`,
     palette: {
       color1: 'rgb(221, 120, 111)',
       color2: 'rgb(217, 220, 219)',
@@ -51,7 +51,7 @@ const inspiredCalendarInfo = [
     day: 5,
     id: 3,
     christmas: 'X',
-    description: '80000 hours',
+    description: `80000 hours. That's how much time we spend working in our lives. This website is a great resource to help you find a career that will make a difference. I'm not sure what to do with all those pieces of information yet, but at least, it gets to make me think about what I want to achieve with my profesionnal career. Hope it gives you some food for thought too!`,
     palette: {
       color1: 'rgb(185, 206, 201)',
       color2: 'rgb(135, 172, 171)',
@@ -62,7 +62,8 @@ const inspiredCalendarInfo = [
     day: 6,
     id: 11,
     christmas: 'L',
-    description: 'neal.fun',
+    description:
+      'One of my favorite developers, who creates simple yet super creative games and websites that spark joy and curiosity. This one is a fun way to experience what it is to have an almost infinite amount of money. Fun. Scary.',
     palette: {
       color1: 'rgb(220, 119, 110)',
       color2: 'rgb(216, 188, 191)',
@@ -73,7 +74,7 @@ const inspiredCalendarInfo = [
     day: 7,
     id: 22,
     christmas: '♡',
-    description: 'cookbook',
+    description: `My not-so-secret cookbook with my favorite recipes. Mostly vegetarian, in Frenglish. Featuring 'the' Västerbottenost paj.`,
     palette: {
       color1: 'rgb(243, 174, 122)',
       color2: 'rgb(217, 220, 219)',
@@ -86,7 +87,7 @@ const inspiredCalendarInfo = [
     day: 8,
     id: 4,
     christmas: '♡',
-    description: 'zero waste stlhm',
+    description: `One of the first things I did when I arrived in Sweden was to look for organic and local food stores... and that was complicated. Here is a city guide for a more sustainable Stockholm, to stay positive and hopeful!`,
     palette: {
       color1: 'rgb(232, 193, 167)',
       color2: 'rgb(219, 120, 87)',
@@ -97,7 +98,7 @@ const inspiredCalendarInfo = [
     day: 9,
     id: 9,
     christmas: 'O',
-    description: 'Freya Holmér',
+    description: `Freya Holmér`,
     palette: {
       color1: 'rgb(255, 215, 194)',
       color2: 'rgb(252, 186, 167)',
@@ -251,23 +252,23 @@ const inspiredCalendarInfo = [
     day: 23,
     id: 2,
     christmas: 'U',
-    description: 'neil de grasse tyson',
+    description: 'edith sampson',
     palette: {
       color1: 'rgb(235, 207, 198)',
       color2: 'rgb(216, 188, 191)',
     },
-    links: { youtube: 'https://youtu.be/_yZiNnQftxU?feature=shared' },
+    links: { youtube: 'https://www.speech.almeida.co.uk/edith-sampson' },
   },
   {
     day: 24,
     id: 21,
     christmas: '♡',
-    description: 'edith',
+    description: `The best podcast with Neil deGrasse Tyson I've heard so far. Very intimate and eye-opening. I love how he talks about his childhood and how he became an astrophysicist. Something to listen while entering the new year for inspiration, hope and remember that we're all made of stars. Merry Christmas <3`,
     palette: {
       color1: 'rgb(217, 220, 219)',
       color2: 'rgb(212, 177, 86)',
     },
-    links: { website: 'https://www.speech.almeida.co.uk/edith-sampson' },
+    links: { website: 'https://youtu.be/_yZiNnQftxU?feature=shared' },
   },
 ] as ICalendarData[]
 
