@@ -47,7 +47,7 @@ const calendarJazzInfo = [
   },
   {
     day: 5,
-    description: `Un classique dans mes playlists de musique. Pour mettre un peu de groove dans votre journée ou soirée. La version YouTube est la plus rigolate à écouter, car elle vient d'une chaîne qui s'appelle COLORS. Le concept de la chaîne est d'inviter des artistes à performer sur un fond monochrome. Besoin d'un peu de peps et d'orange pétillant ? Cliquez !`,
+    description: `Un classique dans mes playlists de musique. Pour mettre un peu de groove dans votre journée ou soirée. La version YouTube est la plus rigolote à écouter, car elle vient d'une chaîne qui s'appelle COLORS. Le concept de la chaîne est d'inviter des artistes à performer sur un fond monochrome. Besoin d'un peu de peps et d'orange pétillant ? Cliquez !`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=ilNEqmfUyzI&ab_channel=COLORS',
       deezer: 'https://deezer.page.link/PEzZzFXg5WyKZgEV8',
@@ -200,7 +200,7 @@ const calendarJazzInfo = [
   },
   {
     day: 22,
-    description: `Si je vous dis musicien un peu loufoque, qui s’est fait connaître grâce à ses vdayéos sur YouTube dans lesquelles il joue d’une vingtaine d’instruments, et qui manie les harmonies comme personne, à qui pensez-vous ?`,
+    description: `Si je vous dis musicien un peu loufoque, qui s’est fait connaître grâce à ses vidéos sur YouTube dans lesquelles il joue d’une vingtaine d’instruments, et qui manie les harmonies comme personne, à qui pensez-vous ?`,
     links: {
       youtube: 'https://www.youtube.com/watch?v=o9CusMKhoqk&ab_channel=JacobCollier',
       deezer: 'https://deezer.page.link/fWs1qAfBx64rx4WN8',
