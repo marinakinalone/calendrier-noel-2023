@@ -175,7 +175,7 @@ const inspiredCalendarInfo = [
     day: 16,
     id: 10,
     christmas: 'Ë',
-    description: 'sailor moon',
+    description: `My first codin`,
     palette: {
       color1: 'rgb(242, 209, 118)',
       color2: 'rgb(186, 171, 110)',
@@ -186,7 +186,7 @@ const inspiredCalendarInfo = [
     day: 17,
     id: 6,
     christmas: '♡',
-    description: 'window swap',
+    description: `Another website I like to browse when I need a break. The execution is very beautiful and I'm grateful for all the people who were willing to share a bit of their lives. It's also a great way to travel without leaving your home.`,
     palette: {
       color1: 'rgb(216, 188, 191)',
       color2: 'rgb(242, 209, 118)',
@@ -197,7 +197,7 @@ const inspiredCalendarInfo = [
     day: 18,
     id: 15,
     christmas: '♡',
-    description: 'the aesthetic of our fictions',
+    description: `A bit of a long read to explore the concept of social fictions and the role of aesthetics in shaping and reinforcing these fictions. An incentive to be present in the world that surrounds us and to question the stories that are being told to us.`,
     palette: {
       color1: 'rgb(216, 188, 191)',
       color2: 'rgb(243, 210, 119)',
@@ -208,7 +208,7 @@ const inspiredCalendarInfo = [
     day: 19,
     id: 20,
     christmas: '♡',
-    description: 'apartment therapy',
+    description: `I love, love watching how people decorate their homes (in a non-creepy way). To escape the Scandinavian ultra-classical white, here are some new ideas from a website I like to browse when I need to relax and get inspired.`,
     palette: {
       color1: 'rgb(160, 181, 181)',
       color2: 'rgb(182, 182, 141)',
@@ -219,7 +219,7 @@ const inspiredCalendarInfo = [
     day: 20,
     id: 12,
     christmas: '♥',
-    description: 'questionnaire de danse',
+    description: `A fun questionnaire to find out which social dance you should try. One of my first coding projects, not to take so seriously but that can give a little bit of inspiration if you want to try something new someday!`,
     palette: {
       color1: 'rgb(197, 137, 75)',
       color2: 'rgb(241, 184, 158)',
@@ -230,7 +230,7 @@ const inspiredCalendarInfo = [
     day: 21,
     id: 5,
     christmas: '♡',
-    description: 'chris guillebeau',
+    description: `Every week, I receive his newsletter and while I don't always agree with everything he writes, it has helped me question our society's rules and think outside the box. This article is a good example of that.`,
     palette: {
       color1: 'rgb(217, 142, 110)',
       color2: 'rgb(255, 215, 194)',
@@ -241,7 +241,8 @@ const inspiredCalendarInfo = [
     day: 22,
     id: 14,
     christmas: '♡',
-    description: 'user in your face',
+    description:
+      'Of the importance of UX design and how design rules our digital world. Frustrating experience, but eye-opening!',
     palette: {
       color1: 'rgb(186, 171, 110)',
       color2: 'rgb(122, 140, 104)',
@@ -252,18 +253,18 @@ const inspiredCalendarInfo = [
     day: 23,
     id: 2,
     christmas: 'U',
-    description: 'edith sampson',
+    description: `As we approach the end of the year, I love to reflect about my life choices and goals. It might sound a bit cliché to use some new year resolutions, and yet, I believe it's good to take advantage of the positive energy that comes with the new year to set some intentions. Here is an inspiring speech to help with introspection.`,
     palette: {
       color1: 'rgb(235, 207, 198)',
       color2: 'rgb(216, 188, 191)',
     },
-    links: { youtube: 'https://www.speech.almeida.co.uk/edith-sampson' },
+    links: { website: 'https://www.speech.almeida.co.uk/edith-sampson' },
   },
   {
     day: 24,
     id: 21,
     christmas: '♡',
-    description: `The best podcast with Neil deGrasse Tyson I've heard so far. Very intimate and eye-opening. I love how he talks about his childhood and how he became an astrophysicist. Something to listen while entering the new year for inspiration, hope and remember that we're all made of stars. Merry Christmas <3`,
+    description: `The best podcast with Neil deGrasse Tyson I've heard so far. Very intimate and eye-opening. I love how he talks about his childhood and how he became an astrophysicist. Something to listen while entering the new year for inspiration, hope, curiosity, and for remembering that we're all special because we're made of stars. Merry Christmas <3`,
     palette: {
       color1: 'rgb(217, 220, 219)',
       color2: 'rgb(212, 177, 86)',
