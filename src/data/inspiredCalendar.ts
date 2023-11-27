@@ -5,7 +5,7 @@ const inspiredCalendarInfo = [
     day: 1,
     id: 0,
     christmas: 'D',
-    description: `Welcome to this lil' advent calendar! Every day, you'll find a new link to something I've found inspiring, interesting, or just plain fun. I hope you enjoy it! I'm kicking off today with a Swedish band. I lied when I said that I only knew Abba and Ikea and I arrived in Sweden two years ago. One third thing I knew was that Sweden has fun drummers and they even break into your house to perform!`,
+    description: `Welcome to this lil' advent calendar! Every day, you'll find a new link to something I've found inspiring, interesting, or just plain fun. I hope you enjoy it! I'm kicking off today with a Swedish band. I lied when I said that I only knew Abba and Ikea when I arrived in Sweden two years ago. One third thing I knew was that Sweden has fun drummers and they even break into your house to perform!`,
     palette: {
       color1: 'rgb(244, 226, 207)',
       color2: 'rgb(232, 193, 167)',
